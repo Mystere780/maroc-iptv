@@ -1,8 +1,9 @@
 #EXTM3U
-# Maroc Stables (No Token Issues)
-#EXTINF:-1 tvg-logo="..." group-title="Maroc",2M Monde
-https://livecdn2.tvanywhere.ae/hls/2m_maroc/04.m3u8
-#EXTINF:-1 tvg-logo="..." group-title="Maroc",Medi1TV
+#EXTINF:-1 group-title="Maroc",Medi1TV (Stable)
 https://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist.m3u8
+#EXTINF:-1 group-title="Maroc",2M Monde (Stable)
+https://livecdn2.tvanywhere.ae/hls/2m_maroc/04.m3u8
 #EXTINF:-1 group-title="Maroc",Zee One Maroc
 https://livecdn2.tvanywhere.ae/hls/zeeone/zeeone_maroc.m3u8
+#EXTINF:-1 group-title="Maroc",Chada TV (relay)
+http://... (de gists récents)

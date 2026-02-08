@@ -32,14 +32,8 @@ https://streaming2.medi1tv.com/live/smil:medi1ar.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
 https://streaming2.medi1tv.com/live/smil:medi1tv.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Al_Aoula_logo.svg/512px-Al_Aoula_logo.svg.png" group-title="SNRT",Al Aoula (Frais 09/02/26)
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Al_Aoula_logo.svg/512px-Al_Aoula_logo.svg.png" group-title="SNRT",Al Aoula Frais
 #EXTVLCOPT:http-referrer=https://snrtlive.ma/fr/al-aoula
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8?token=Xc3ND2-XEbF-szHU8nLakI98R6F7PXS6fiCYSQrIKkE&expires=1770594142&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm
-
-# Backup sans token (5min)
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Al_Aoula_logo.svg/512px-Al_Aoula_logo.svg.png" group-title="SNRT",Al Aoula Backup
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/fr/al-aoula
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist.m3u8
-
+#EXTVLCOPT:http-cookie="session=..." (si vu DevTools)
+TON_NOUVEAU_LIEN_TOKEN

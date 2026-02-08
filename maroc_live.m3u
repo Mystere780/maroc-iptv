@@ -1,12 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://www.snrt.ma/sites/default/files/styles/cha%C3%AEne/public/2021-10/alaoula.png?itok=..." group-title="SNRT",Al Aoula
-https://live-hls-web-aje.getthru.io/ls/ALAOULA/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="2M",2M Live
-https://live-hls-web-aje.getthru.io/ls/2M/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.medi1tv.com/sites/default/files/styles/..." group-title="Medi1TV",Medi1TV
-https://live-hls-web-aje.getthru.io/ls/MEDI1TV/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.snrt.ma/sites/default/files/styles/cha%C3%AEne/public/2021-10/arryadia.png?itok=..." group-title="SNRT",Arryadia
-https://live-hls-web-aje.getthru.io/ls/ARRYADIA/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://www.snrt.ma/sites/default/files/styles/cha%C3%AEne/public/2021-10/tamazight.png?itok=..." group-title="SNRT",Tamazight
-https://live-hls-web-aje.getthru.io/ls/TAMAZIGHT/livestream/playlist.m3u8
-
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Al_Aoula_logo.svg/512px-Al_Aoula_logo.svg.png" group-title="Maroc",Al Aoula
+https://snrtlive.ma/live/al-aoula/index.m3u8
+#EXTINF:-1 tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc",2M
+https://livecdn2.tvanywhere.ae/hls/2m_maroc/04.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Arryadia_Logo.png/512px-Arryadia_Logo.png" group-title="Maroc",Arryadia
+https://snrtlive.ma/live/arryadia/index.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tamazight_TV_logo.svg/512px-Tamazight_TV_logo.svg.png" group-title="Maroc",Tamazight TV
+https://snrtlive.ma/live/tamazight/index.m3u8
+#EXTINF:-1 tvg-logo="https://medi1tv.ma/sites/default/files/medi1tv-logo.png" group-title="Maroc",Medi1TV
+https://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Al_Maghribia_logo.png/512px-Al_Maghribia_logo.png" group-title="Maroc",Al Maghribia
+https://snrtlive.ma/live/almaghribia/index.m3u8

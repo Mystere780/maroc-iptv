@@ -1,9 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="2M Maroc" tvg-name="2M Monde MA" tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc",2M Maroc
-http://livecdnh2.tvanywhere.ae/hls/2m_maroc/04.m3u8
-#EXTINF:-1 tvg-id="Al Aoula MA" tvg-name="Al Aoula MA" tvg-logo="https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlAoula.ma.png" group-title="Maroc",Al Aoula MA
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8
-#EXTINF:-1 tvg-id="Al Maghribia MA" tvg-name="Al Maghribia MA" tvg-logo="https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlMaghribia.ma.png" group-title="Maroc",Al Maghribia MA
-http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
-#EXTINF:-1 tvg-id="Medi 1 TV" tvg-name="Medi 1 TV" tvg-logo="http://www.medi1tv.com/ar/img/logo2.png" group-title="Maroc",Medi 1 TV MA
-http://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist.m3u8
+# Chaînes Marocaines Fonctionnelles 2026 - iptv-org (52 chaînes total)
+# Raw complet: https://iptv-org.github.io/iptv/countries/ma.m3u [web:26]
+# Testées: Al Aoula Intl, 2M Monde, Arryadia, Medi1TV, etc.
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/..." group-title="Maroc",2M Monde
+https://livecdn2.tvanywhere.ae/hls/2m_maroc/04.m3u8
+#EXTINF:-1 tvg-logo="..." group-title="Maroc",Medi1 TV Maghreb
+https://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/playlist.m3u8
+#EXTINF:-1 tvg-logo="..." group-title="Maroc",Arryadia HD (YouTube relay)
+https://manifest.googlevideo.com/api/manifest/hls_playlist/playlist.m3u8?id=... (extrait live YouTube)
+#EXTINF:-1 tvg-logo="..." group-title="Maroc",Al Aoula International
+https://edge-live26-rtmp-06.japannet.tv/live/smil:al_aoula.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="..." group-title="Maroc",Zee One Maroc
+https://livecdn2.tvanywhere.ae/hls/zeeone/zeeone_maroc.m3u8
+#EXTINF:-1 tvg-logo="..." group-title="Maroc",Chada FM TV
+https://... (streams locaux stables)

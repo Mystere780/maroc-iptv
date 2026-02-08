@@ -1,41 +1,29 @@
 #EXTM3U
-# Chaînes Marocaines IPTV 2026 - Headers Anti-Block (Suite + Medi1TV)
-# Test VLC/Kodi/TiviMate
+# Maroc IPTV Working 2026 - Headers Boostés (Tes Tests OK)
+# 2M / Chada / Al Maghribia / Tele Maroc + Bonus
 
-# 2M Monde (déjà ajouté)
-#EXTINF:-1 tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc",2M Monde
+#EXTINF:-1 tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc",2M Monde ✅
 #EXTVLCOPT:http-referrer=http://www.radio2m.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
 https://cdn-globecast.akamaized.net/live/eds/2m_monde/hls_video_ts_tuhawxpiemz257adfc/2m_monde.m3u8
 
-# Al Aoula, Arryadia, Tamazight (SNRT déjà ajoutés)
-
-#EXTINF:-1 tvg-logo="https://medi1tv.ma/sites/default/files/medi1tv-logo.png" group-title="Medi1TV",Medi1TV Maghreb
-#EXTVLCOPT:http-referrer=https://medi1tv.ma/fr/live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://medi1tv.ma/sites/default/files/medi1tv-logo.png" group-title="Medi1TV",Medi1TV Arabic
-#EXTVLCOPT:http-referrer=https://medi1tv.ma/fr/live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://medi1tv.ma/sites/default/files/medi1tv-logo.png" group-title="Medi1TV",Medi1TV Afrique
-#EXTVLCOPT:http-referrer=https://medi1tv.ma/fr/live
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Al_Maghribia_logo.png/512px-Al_Maghribia_logo.png" group-title="SNRT",Al Maghribia
-#EXTVLCOPT:http-referrer=https://snrtlive.ma/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
-https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-HLS8/almaghribia.m3u8
-
-#EXTINF:-1 tvg-logo="https://logos.film1.me/chadatv.png" group-title="Maroc",Chada TV
+#EXTINF:-1 tvg-logo="https://logos.film1.me/chadatv.png" group-title="Maroc",Chada TV ✅
 #EXTVLCOPT:http-referrer=https://chadatv.ma/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
 https://chadatv.vedge.infomaniak.com/livecast/chadatv/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://logos.film1.me/tele-maroc.png" group-title="Maroc",Tele Maroc
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Al_Maghribia_logo.png/512px-Al_Maghribia_logo.png" group-title="SNRT",Al Maghribia ✅
+#EXTVLCOPT:http-referrer=https://snrtlive.ma/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+https://viamotionhsi.netplus.ch/live/eds/almaghribia/browser-HLS8/almaghribia.m3u8
+
+#EXTINF:-1 tvg-logo="https://logos.film1.me/tele-maroc.png" group-title="Maroc",Tele Maroc ✅
 #EXTVLCOPT:http-referrer=https://telemaroc.tv/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
 https://raw.githubusercontent.com/ipstreet312/freeiptv/refs/heads/master/ressources/wld/tlma.m3u8
+
+#EXTINF:-1 tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc Bonus",2M Monde +1
+https://d2qh3gh0k5vp3v.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-n6pess5lwbghr/2M_ES.m3u8
+
+#EXTINF:-1 tvg-logo="https://136044159.r.cdnsun.net/storychannel.png" group-title="Maroc Bonus",StoryChannel TV
+https://136044159.r.cdnsun.net/storychannel.m3u8

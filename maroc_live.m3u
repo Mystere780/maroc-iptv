@@ -1,2 +1,9 @@
-https://token.easybroadcast.io/all?url=https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/playlist_dvr.m3u8
-https://cdn.live.easybroadcast.io/abr_corp/73_aloula_w1dqfwm/corp/73_aloula_w1dqfwm_240p/chunks_dvr.m3u8?token=k7oVDnwBCOfhHYUe_v72PGAPVkMLgtX-hRaj10rOdLU&expires=1770589835&token_path=%2Fabr_corp%2F73_aloula_w1dqfwm%2Fcorp%2F73_aloula_w1dqfwm_240p
+#EXTM3U
+#EXTINF:-1 tvg-id="2M Maroc" tvg-name="2M Monde MA" tvg-logo="https://m.2m.ma/static/images/2m-logo-thumbnail.png" group-title="Maroc",2M Maroc
+http://livecdnh2.tvanywhere.ae/hls/2m_maroc/04.m3u8
+#EXTINF:-1 tvg-id="Al Aoula MA" tvg-name="Al Aoula MA" tvg-logo="https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlAoula.ma.png" group-title="Maroc",Al Aoula MA
+http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_aoula_inter/hls_snrt/index.m3u8
+#EXTINF:-1 tvg-id="Al Maghribia MA" tvg-name="Al Maghribia MA" tvg-logo="https://raw.githubusercontent.com/3nakib/IPTV/master/icons/AlMaghribia.ma.png" group-title="Maroc",Al Maghribia MA
+http://cdnamd-hls-globecast.akamaized.net/live/ramdisk/al_maghribia_snrt/hls_snrt/index.m3u8
+#EXTINF:-1 tvg-id="Medi 1 TV" tvg-name="Medi 1 TV" tvg-logo="http://www.medi1tv.com/ar/img/logo2.png" group-title="Maroc",Medi 1 TV MA
+http://streaming.medi1tv.com/live/Medi1tvmaghreb.sdp/chunklist.m3u8
